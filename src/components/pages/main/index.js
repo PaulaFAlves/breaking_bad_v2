@@ -13,10 +13,12 @@ export default class Main extends Component {
     }
 
     loadCharacters = async () => {
-        const response = await api.get('/');
-
-        this.setState({ characters: response.data.data })
-        
+        try {
+            const response = await api.get('/');
+            this.setState({ characters: response.data.data })
+        } catch (error) {
+            console.log('Error on API')
+        }    
     }
 
     render() {

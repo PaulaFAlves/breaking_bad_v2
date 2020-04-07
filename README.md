@@ -4,11 +4,8 @@
 
 
   This is a single page project that shows all the characters from the TV show **Breaking Bad**.
-  
-  To get all the information, it uses the following API:
-  
-  - [https://breakingbadapi.com/api/](https://breakingbadapi.com/api/)
 
+  **This a second version of the project [https://github.com/PaulaFAlves/breaking_bad](https://github.com/PaulaFAlves/breaking_bad), this time using a local server.
 
 
 ## How to run this project?
