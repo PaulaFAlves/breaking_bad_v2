@@ -1,0 +1,113 @@
+.characters-list {
+    max-width: 500px;
+    max-height: 600px;
+    margin: 0 auto 0;
+    padding: 0 20px;
+}
+.characters-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 50px 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px 5px 2px #151515;
+    -moz-box-shadow: 1px 3px 5px 2px #151515;
+    -webkit-box-shadow: 1px 3px 5px 2px #151515;
+    -o-box-shadow: 1px 3px 5px 2px #151515;
+}
+.characters-list article + article{
+    margin-top: 20px;
+}
+
+.characters-list article strong {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.characters-list article p {
+    font-size: 16;
+    color: #151515;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 17px;
+}
+.characters-list article a {
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #151515;
+    background: none;
+    margin-top: 10px;
+    color: #151515;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.characters-list article a:hover {
+    background: #151515;
+    color: #fff;
+}
+.characters-list input {
+    margin: 10px;
+    border: none;
+    font-size: 14px;
+    width: 635px;
+    max-width: 635px;
+}
+.characters-list a {
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid #151515;
+    background: #151515;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+.characters-list a:hover {
+    background: #fff;
+    color: #151515;
+    cursor: pointer;
+}
+.characters-list .character-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.character-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 3%;
+    box-shadow: 1px 3px 5px 2px #151515;
+    -moz-box-shadow: 1px 3px 5px 2px #151515;
+    -webkit-box-shadow: 1px 3px 5px 2px #151515;
+    -o-box-shadow: 1px 3px 5px 2px #151515;
+}
+.alertSpoiler {
+    font-style: italic;
+}
+.spoiler {
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spoiler:hover {
+    color: #151515 !important;
+    cursor: pointer;
+}
