@@ -12,8 +12,6 @@ app.use(cors());
 
 const data = require('./localApi.json');
 
-var cache = {};
-
 app.get('/', function(req, res) {
   return res.json({ data });
 });
