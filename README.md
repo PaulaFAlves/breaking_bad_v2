@@ -31,7 +31,7 @@
 
 
 
-**Run the tests**
+**Run the tests:**
 
  - In the main directory, run "npm test". It will check if the conection with the API is correct, and if the response is in json format, as it should be.
 
