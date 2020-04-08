@@ -12,24 +12,11 @@ app.use(cors());
 
 const data = require('./localApi.json');
 
-// app.get('/', (req, res) => {
-//   
-// });
-
 var cache = {};
 
-// app.post('/set', function(req, res) {
-//   var query = req.query;
-//   Object.keys(query).forEach(function(key) {
-//     cache[key] = query[key];
-//   });
-//   res.status(200).end();
-// });
 app.get('/', function(req, res) {
   return res.json({ data });
 });
-
-
 
 app.listen(9000, () => console.log('Express started at http://localhost:9000'));
 
